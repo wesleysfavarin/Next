@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Conselho" representedClassName="Conselho" syncable="YES" codeGenerationType="class">
+        <attribute name="cod_concelho" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cod_distrito" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_concelho" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Distrito" representedClassName="Distrito" syncable="YES" codeGenerationType="class">
+        <attribute name="cod_distrito" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_distrito" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PostalCode" representedClassName="PostalCode" syncable="YES" codeGenerationType="class">
+        <attribute name="cliente" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cod_arteria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cod_concelho" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cod_distrito" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cod_localidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desig_postal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ext_cod_postal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="local_arteria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_arteria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_concelho" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_distrito" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome_localidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_cod_postal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="porta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prep1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prep2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo_arteria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo_arteria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="troco" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Conselho" positionX="-215.75" positionY="61.828125" width="128" height="105"/>
+        <element name="Distrito" positionX="-375.08203125" positionY="264.015625" width="128" height="75"/>
+        <element name="PostalCode" positionX="-36" positionY="9" width="128" height="345"/>
+    </elements>
 </model>

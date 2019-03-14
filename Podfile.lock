@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (5.0.1)
+  - TextFieldEffects (1.5.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Kingfisher: 4f771421b9208185217550528a06fd48756cb7c2
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+
+PODFILE CHECKSUM: 9ef3d2472783deac62846bcd3aa46978633a2baa
+
+COCOAPODS: 1.5.3

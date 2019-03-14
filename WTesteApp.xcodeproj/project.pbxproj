@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DCB18822396E2E0071D770 /* PostalCodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB18722396E2E0071D770 /* PostalCodeTableViewController.swift */; };
+		04DCB18A223971320071D770 /* PostalCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB189223971320071D770 /* PostalCodeTableViewCell.swift */; };
+		04DCB18C2239CB900071D770 /* ListTextViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB18B2239CB900071D770 /* ListTextViewTableViewController.swift */; };
+		04DCB18E223AECA80071D770 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB18D223AECA80071D770 /* TableViewController.swift */; };
+		04DCB190223AECFB0071D770 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB18F223AECFB0071D770 /* TableViewCell.swift */; };
+		04DCB192223AF4570071D770 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCB191223AF4560071D770 /* TextViewTableViewCell.swift */; };
 		04FFABB02235A53400D86900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABAF2235A53400D86900 /* AppDelegate.swift */; };
 		04FFABB22235A53400D86900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABB12235A53400D86900 /* ViewController.swift */; };
 		04FFABB52235A53400D86900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFABB32235A53400D86900 /* Main.storyboard */; };
 		04FFABB82235A53400D86900 /* WTesteApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABB62235A53400D86900 /* WTesteApp.xcdatamodeld */; };
 		04FFABBA2235A53500D86900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FFABB92235A53500D86900 /* Assets.xcassets */; };
 		04FFABBD2235A53500D86900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFABBB2235A53500D86900 /* LaunchScreen.storyboard */; };
+		04FFABC72235A59F00D86900 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABC62235A59F00D86900 /* Service.swift */; };
+		04FFABC92235A5E700D86900 /* PostalCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABC82235A5E700D86900 /* PostalCodeViewController.swift */; };
+		04FFABCB2235A97900D86900 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFABCA2235A97900D86900 /* ViewController+CoreData.swift */; };
+		F35DC92442846A36E62EE89F /* Pods_WTesteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBB3B2D0032A316F8417E8D /* Pods_WTesteApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04DCB18722396E2E0071D770 /* PostalCodeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeTableViewController.swift; sourceTree = "<group>"; };
+		04DCB189223971320071D770 /* PostalCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeTableViewCell.swift; sourceTree = "<group>"; };
+		04DCB18B2239CB900071D770 /* ListTextViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTextViewTableViewController.swift; sourceTree = "<group>"; };
+		04DCB18D223AECA80071D770 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04DCB18F223AECFB0071D770 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04DCB191223AF4560071D770 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
 		04FFABAC2235A53400D86900 /* WTesteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTesteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FFABAF2235A53400D86900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FFABB12235A53400D86900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,12 @@
 		04FFABB92235A53500D86900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FFABBC2235A53500D86900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FFABBE2235A53600D86900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFABC62235A59F00D86900 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		04FFABC82235A5E700D86900 /* PostalCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeViewController.swift; sourceTree = "<group>"; };
+		04FFABCA2235A97900D86900 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		312248CD3D6597F0A47E0271 /* Pods-WTesteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTesteApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTesteApp/Pods-WTesteApp.release.xcconfig"; sourceTree = "<group>"; };
+		4BBB3B2D0032A316F8417E8D /* Pods_WTesteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTesteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CB2E31E5E5ED4898238584 /* Pods-WTesteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTesteApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTesteApp/Pods-WTesteApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35DC92442846A36E62EE89F /* Pods_WTesteApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DCB18622396E1A0071D770 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DCB191223AF4560071D770 /* TextViewTableViewCell.swift */,
+				04DCB18D223AECA80071D770 /* TableViewController.swift */,
+				04DCB18B2239CB900071D770 /* ListTextViewTableViewController.swift */,
+				04DCB18722396E2E0071D770 /* PostalCodeTableViewController.swift */,
+				04DCB189223971320071D770 /* PostalCodeTableViewCell.swift */,
+				04DCB18F223AECFB0071D770 /* TableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		04FFABA32235A53400D86900 = {
 			isa = PBXGroup;
 			children = (
 				04FFABAE2235A53400D86900 /* WTesteApp */,
 				04FFABAD2235A53400D86900 /* Products */,
+				9193EB0F199D6148151E6197 /* Pods */,
+				E7341E22C32D8A3746416CA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +94,9 @@
 		04FFABAE2235A53400D86900 /* WTesteApp */ = {
 			isa = PBXGroup;
 			children = (
+				04DCB18622396E1A0071D770 /* View */,
+				04FFABC52235A58000D86900 /* Service */,
+				04FFABC42235A56F00D86900 /* Controller */,
 				04FFABAF2235A53400D86900 /* AppDelegate.swift */,
 				04FFABB12235A53400D86900 /* ViewController.swift */,
 				04FFABB32235A53400D86900 /* Main.storyboard */,
@@ -67,6 +108,40 @@
 			path = WTesteApp;
 			sourceTree = "<group>";
 		};
+		04FFABC42235A56F00D86900 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FFABC82235A5E700D86900 /* PostalCodeViewController.swift */,
+				04FFABCA2235A97900D86900 /* ViewController+CoreData.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04FFABC52235A58000D86900 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04FFABC62235A59F00D86900 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9193EB0F199D6148151E6197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80CB2E31E5E5ED4898238584 /* Pods-WTesteApp.debug.xcconfig */,
+				312248CD3D6597F0A47E0271 /* Pods-WTesteApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7341E22C32D8A3746416CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB3B2D0032A316F8417E8D /* Pods_WTesteApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FFABC12235A53600D86900 /* Build configuration list for PBXNativeTarget "WTesteApp" */;
 			buildPhases = (
+				CF1990B25E01BDFADE273846 /* [CP] Check Pods Manifest.lock */,
 				04FFABA82235A53400D86900 /* Sources */,
 				04FFABA92235A53400D86900 /* Frameworks */,
 				04FFABAA2235A53400D86900 /* Resources */,
+				CEACC8EC0D3ED46CF826C8B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +210,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEACC8EC0D3ED46CF826C8B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WTesteApp/Pods-WTesteApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTesteApp/Pods-WTesteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1990B25E01BDFADE273846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WTesteApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04FFABA82235A53400D86900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FFABC92235A5E700D86900 /* PostalCodeViewController.swift in Sources */,
+				04DCB18A223971320071D770 /* PostalCodeTableViewCell.swift in Sources */,
 				04FFABB22235A53400D86900 /* ViewController.swift in Sources */,
+				04DCB18E223AECA80071D770 /* TableViewController.swift in Sources */,
+				04FFABC72235A59F00D86900 /* Service.swift in Sources */,
+				04DCB192223AF4570071D770 /* TextViewTableViewCell.swift in Sources */,
+				04DCB18822396E2E0071D770 /* PostalCodeTableViewController.swift in Sources */,
+				04DCB190223AECFB0071D770 /* TableViewCell.swift in Sources */,
 				04FFABB82235A53400D86900 /* WTesteApp.xcdatamodeld in Sources */,
 				04FFABB02235A53400D86900 /* AppDelegate.swift in Sources */,
+				04FFABCB2235A97900D86900 /* ViewController+CoreData.swift in Sources */,
+				04DCB18C2239CB900071D770 /* ListTextViewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +419,7 @@
 		};
 		04FFABC22235A53600D86900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CB2E31E5E5ED4898238584 /* Pods-WTesteApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +438,7 @@
 		};
 		04FFABC32235A53600D86900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312248CD3D6597F0A47E0271 /* Pods-WTesteApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
